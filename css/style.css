@@ -1,0 +1,153 @@
+/* style for Tortoiseshell */
+
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+body {
+  background-color: azure;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-image: url(../images/glasses-bg.png);
+  height: 31rem;
+  width: 100%;
+}
+.site {
+  width: 960px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.headr {
+  display: flex;
+  background-color: cadetblue;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: white;
+  height: 3rem;
+}
+.headr-left {
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  height: 1.5rem;
+  width: auto;
+  padding-right: 1em;
+}
+.headr-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.headr-right span {
+  display: none;
+}
+.look {
+  display: flex;
+  justify-content: flex-end;
+}
+.lookbox {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  left: 2rem;
+  background-color: white;
+  color: black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+/*  width: 30rem;*/
+  padding-top: 1.5rem;
+  padding-left: 5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 10rem;
+  padding-right: 5rem;
+
+}
+.menuitems {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+
+
+}
+.menuitems ul {
+  display: flex;
+  align-items: center;
+  padding: 0.75em 0;
+  list-style: none;
+}
+li {
+  display:inline;
+  padding-right: 2rem;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  height: 8rem;
+  padding-top: 3rem;
+  justify-content: center;
+}
+.exams {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 8rem;
+}
+.paper {
+  display: flex;
+  width: 3.5rem;
+  height: auto;
+    align-items: center;
+}
+.exams span {
+  flex-wrap: wrap;
+  height: auto;
+  align-items: center;
+}
+.fittings {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.ruler {
+  display: flex;
+  width: 5rem;
+  height: auto;
+}
+.delivery {
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+.truck {
+  display: flex;
+  width: 5rem;
+  height: auto;
+
+}
+.footer {
+  display: flex;
+  position: fixed;
+  background-color: azure;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+.footer-left {
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  align-items: center;
+}
