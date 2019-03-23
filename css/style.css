@@ -97,38 +97,39 @@ li {
   padding-top: 3rem;
   justify-content: center;
 }
-.exams {
+.service {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   width: 8rem;
+}
+
+.service-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-description {
+  display: flex;
+  color: black;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 0.2rem;
 }
 .paper {
   display: flex;
   width: 3.5rem;
   height: auto;
-    align-items: center;
-}
-.exams span {
-  flex-wrap: wrap;
-  height: auto;
   align-items: center;
-}
-.fittings {
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 .ruler {
   display: flex;
   width: 5rem;
   height: auto;
-}
-.delivery {
-  padding-left: 4rem;
-  padding-right: 4rem;
-
 }
 .truck {
   display: flex;
@@ -136,9 +137,33 @@ li {
   height: auto;
 
 }
+.info {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+  justify-content: center;
+}
+.info-box {
+  padding-right: 48px;
+}
+.info-box-title {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  width: 10rem;
+
+}
+.info-box-text {
+  width: 336px;
+  padding-top: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.2rem;
+
+}
 .footer {
   display: flex;
-  position: fixed;
+/*  position: fixed; */
   background-color: azure;
   bottom: 0;
   width: 100%;
